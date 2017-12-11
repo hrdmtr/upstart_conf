@@ -1,11 +1,17 @@
-# upstart_conf
+# upstart conf files
 
-install
+
+1. kibana.conf
+
+INSTALL
+
  $ cp kibana.conf /etc/init
 
-start
+START
+
  $ sudo initctl start kibana
 
-start
+STOP
+
  $ sudo initctl stop kibana
 
