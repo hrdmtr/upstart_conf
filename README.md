@@ -5,13 +5,13 @@
 
 INSTALL
 
- $ cp kibana.conf /etc/init
+			$ cp kibana.conf /etc/init
 
 START
 
- $ sudo initctl start kibana
+			$ sudo initctl start kibana
 
 STOP
 
- $ sudo initctl stop kibana
+			$ sudo initctl stop kibana
 
